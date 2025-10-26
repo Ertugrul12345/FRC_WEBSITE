@@ -137,6 +137,7 @@ body {
 .btn:active { transform: translateY(0); }
 .btn-primary { color: #111; background: linear-gradient(180deg, var(--primary), var(--primary-2)); box-shadow: 0 10px 28px rgba(255,140,0,.35); border: 0; }
 .btn-outline { color: var(--text); background: transparent; border-color: rgba(255,255,255,.26); }
+.btn-accent { color: #111; background: linear-gradient(180deg, var(--accent), #ffd86b); box-shadow: 0 10px 28px rgba(255,193,7,.28); border: 0; }
 
 .center { text-align: center; }
 .mt { margin-top: 18px; }
