@@ -1,307 +1,489 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>MechaTigers 10121 | FRC Robotics</title>
-    <meta name="description" content="Official website for FRC Team 10121 MechaTigers. Learn about our robots, achievements, outreach, and how to get involved." />
-    <link rel="preconnect" href="" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-container">
-        <a href="#home" class="brand" aria-label="MechaTigers 10121 home">
-          <span class="brand-mark" aria-hidden="true">🐯</span>
-          <img class="brand-logo" src="logo.png" alt="" width="28" height="28" />
-          <span class="brand-text">MechaTigers 10121</span>
-        </a>
-        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
-          <span class="nav-toggle-bar"></span>
-          <span class="nav-toggle-bar"></span>
-          <span class="nav-toggle-bar"></span>
-        </button>
-        <nav id="site-nav" class="site-nav" aria-label="Primary">
-          <a href="#about">About</a>
-          <a href="#robots">Robots</a>
-          <a href="#achievements">Achievements</a>
-          <a href="#outreach">Outreach</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#leadership">Leadership</a>
-          <a href="#contact">Contact</a>
-          <a href="https://gofund.me/8645dbc07" class="cta" target="_blank" rel="noopener">Donate</a>
-        </nav>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MechaTigers 10121 | FRC Robotics — Apex, NC</title>
+  <meta name="description" content="FRC Team 10121 MechaTigers — the engineering record of a student-led FIRST Robotics Competition team at Triangle Math and Science Academy, Apex, North Carolina. 2026 FNC District Wake County Event #2 Winners." />
+  <meta property="og:title" content="MechaTigers 10121 — FRC Robotics" />
+  <meta property="og:description" content="Student-led FIRST Robotics Competition team from Apex, NC. 2026 Wake County Event #2 Winners." />
+  <meta property="og:image" content="https://mechatigers10121.com/frc2.jpeg" />
+  <meta property="og:url" content="https://mechatigers10121.com/" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="masthead-bar">
+  <div class="wrap">
+    <a href="#home" class="brand" aria-label="MechaTigers 10121 home">
+      <img src="logo.png" alt="" width="34" height="34" />
+      <span class="brand-name">MechaTigers
+        <small>FRC · 10121 · Apex NC</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Index</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <a href="#about"><span class="n" aria-hidden="true">01</span>About</a>
+      <a href="#robots"><span class="n" aria-hidden="true">02</span>Robots</a>
+      <a href="#achievements"><span class="n" aria-hidden="true">03</span>Results</a>
+      <a href="#engineering"><span class="n" aria-hidden="true">04</span>Process</a>
+      <a href="#outreach"><span class="n" aria-hidden="true">05</span>Outreach</a>
+      <a href="#gallery">Plates</a>
+      <a href="#leadership"><span class="n" aria-hidden="true">06</span>Leadership</a>
+      <a href="#contact">Contact</a>
+      <a class="donate" href="https://gofund.me/8645dbc07" target="_blank" rel="noopener">Donate</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO MASTHEAD ================= -->
+  <section class="hero" id="home" aria-label="MechaTigers 10121 masthead">
+    <div class="wrap">
+      <div class="reg-row" aria-hidden="true">
+        <span class="reg-mark"></span>
+        <span class="reg-mark"></span>
       </div>
-    </header>
+      <div class="hero-edition">
+        <span class="mono-label">The Build Report — Vol. 2 · 2026 Season</span>
+        <span class="mono-label">FIRST Robotics Competition · NC District</span>
+      </div>
 
-    <main id="home" class="main">
-      <section class="hero">
-        <div class="container hero-inner">
-          <h1 class="hero-title">FRC Team 10121 — MechaTigers</h1>
-          <p class="hero-tag">Engineering. Teamwork. Grit. Building the future, one robot at a time.</p>
+      <div class="hero-title-block" data-reveal>
+        <h1 class="hero-title">Mecha<span>Tigers</span></h1>
+        <div class="hero-sub">
+          <span class="team-no">№ 10121</span>
+          <p>STUDENT-LED FRC TEAM · TRIANGLE MATH AND SCIENCE ACADEMY · APEX, NORTH CAROLINA</p>
+        </div>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-stage-cell">
+          <!-- ============================================================
+               SCROLL WORLD INTEGRATION POINT
+               Replace the contents of #scroll-world-stage with the
+               scroll-scrubbed sequence. Keep the container itself; the
+               figure below is the static fallback and should remain as
+               the no-JS / reduced-motion fallback.
+               ============================================================ -->
+          <div id="scroll-world-stage" class="hero-stage" data-scroll-world="reserved">
+            <figure class="plate" data-reveal>
+              <img src="frc2.jpeg" width="1600" height="1200" fetchpriority="high"
+                   alt="The full winning alliance posing with two 2026 FIRST North Carolina District Wake County Event #2 winner banners on the field" />
+              <figcaption><span class="fig-no">Plate 01</span> — The winning alliance, FNC District Wake County Event #2, 2026 REBUILT season. MechaTigers competed as part of the event-winning alliance.</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="hero-aside" data-reveal>
+          <ul class="hero-facts">
+            <li><span class="k">Founded</span> <span class="v">2025 — Rookie season</span></li>
+            <li><span class="k">School</span> <span class="v">Triangle Math &amp; Science Academy</span></li>
+            <li><span class="k">District</span> <span class="v">FIRST North Carolina</span></li>
+            <li><span class="k">2026 · Wake Co. #1</span> <span class="v">District Event Finalist</span></li>
+            <li><span class="k">2026 · Wake Co. #2</span> <span class="v win">District Event Winner</span></li>
+            <li><span class="k">2026 · FNC States</span> <span class="v">Championship qualifier</span></li>
+          </ul>
           <div class="hero-actions">
-            <a href="#robots" class="btn btn-primary">See Our Robots</a>
-            <a href="https://gofund.me/8645dbc07" class="btn btn-accent" target="_blank" rel="noopener">Support Our Team</a>
-            <a href="#contact" class="btn btn-outline">Join / Contact</a>
+            <a class="btn btn-solid" href="#robots">Explore the robot</a>
+            <a class="btn" href="#contact">Join the team</a>
+            <a class="donate-quiet" href="https://gofund.me/8645dbc07" target="_blank" rel="noopener">Donate →</a>
           </div>
         </div>
-        <div class="hero-bg" aria-hidden="true"></div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      
+  <!-- ================= 01 ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="wrap section-grid">
+      <div class="margin-col">
+        <div class="margin-inner">
+          <span class="sec-no" aria-hidden="true">01</span>
+          <span class="margin-note">The team<br />Est. 2025</span>
+        </div>
+      </div>
+      <div class="body-col" data-reveal>
+        <h2 class="sec-title">A student-led engineering team</h2>
+        <hr class="sec-rule" aria-hidden="true" />
+        <p class="lede">We are the MechaTigers — FIRST Robotics Competition Team 10121 from Triangle Math and Science Academy in Apex, North Carolina. Each season we design, machine, wire, and program a competition robot in six weeks, then field it against teams from across the state.</p>
+        <p class="prose" style="margin-top:1.2em">Our mission is to inspire students to pursue STEM through hands-on engineering, gracious professionalism, and real-world problem solving. Students run every subteam — build, electrical, programming, marketing, and outreach — with mentors guiding rather than driving.</p>
+        <p class="prose">In our rookie year (2025, <em>REEFSCAPE</em>) we competed at two district events. One season later we were event finalists, then event winners, and qualified for the FIRST North Carolina State Championship.</p>
+      </div>
+    </div>
+  </section>
 
-      <section id="about" class="section">
-        <div class="container">
-          <div class="section-header">
-            <h2>About Us</h2>
-            <p>We are MechaTigers 10121 — a student‑led FIRST Robotics Competition team passionate about learning, innovating, and serving our community.</p>
-          </div>
-          <div class="grid one">
-            <div class="card">
-              <h3>Mission</h3>
-              <p>Inspire students to pursue STEM through hands‑on engineering, gracious professionalism, and real‑world problem solving.</p>
+  <!-- ================= 02 ROBOTS ================= -->
+  <section class="section" id="robots">
+    <div class="wrap section-grid">
+      <div class="margin-col">
+        <div class="margin-inner">
+          <span class="sec-no" aria-hidden="true">02</span>
+          <span class="margin-note">The machines<br />2025–2026</span>
+        </div>
+      </div>
+      <div class="body-col">
+        <h2 class="sec-title" data-reveal>The robots</h2>
+        <hr class="sec-rule" aria-hidden="true" />
+        <p class="lede" data-reveal>Two seasons, two machines — designed and assembled in our school workshop, from drivetrain to vision system.</p>
+
+        <div class="robot-feature">
+          <article class="robot-sheet" data-reveal>
+            <figure class="plate robot-photo">
+              <img src="robot2.png" width="830" height="1075" loading="lazy"
+                   alt="Competition robot with a roller intake across the front and sponsor decals for NCDPI, AndyMark, Google, and NASA" />
+              <figcaption><span class="fig-no">Fig. 02.1</span> — Roller intake and belt drive; decals: NCDPI, AndyMark, Google, NASA.</figcaption>
+            </figure>
+            <div class="robot-title-block">
+              <h3>Competition robot</h3>
+              <p class="sub">Sheet 02-A · TMSA workshop</p>
+              <ul class="spec-list">
+                <li><span class="k">Name</span> <span class="v tbd">to be confirmed</span></li>
+                <li><span class="k">Season</span> <span class="v tbd">to be confirmed</span></li>
+                <li><span class="k">Intake</span> <span class="v">Roller intake · belt drive</span></li>
+                <li><span class="k">Vision</span> <span class="v">Limelight</span></li>
+              </ul>
+              <p class="small-note robot-note">Specification sheet in progress — verified robot names, season designations, and drivetrain details will be published here.</p>
             </div>
+          </article>
 
-          </div>
-        </div>
-      </section>
-
-      <section id="robots" class="section alt">
-        <div class="container">
-          <div class="section-header">
-            <h2>Robots</h2>
-            <p>Our 2025 REEFSCAPE robots</p>
-          </div>
-          <div class="grid one">
-            <article class="card robot">
-              <img class="media image" src="Screenshot 2025-09-28 204841.png" alt="Team 10121 2025 REEFSCAPE robot photo" />
-            </article>
-            <article class="card robot">
-              <img class="media image" src="robot2.png" alt="Team 10121 robot photo" />
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="achievements" class="section">
-        <div class="container">
-          <div class="section-header">
-            <h2>Achievements</h2>
-            <p>Milestones and results we're proud of</p>
-          </div>
-          <div class="grid one">
-            <div class="card">
-              <ul class="list">
-                <li>Winner of Wake County Event #2</li>
-                <li>Finalist at Wake County Event #1</li>
+          <article class="robot-sheet flip" data-reveal>
+            <figure class="plate robot-photo">
+              <img src="Screenshot 2025-09-28 204841.png" width="628" height="933" loading="lazy"
+                   alt="Competition robot with a tall elevator lift frame, pulley rigging, and exposed wiring, displayed at a TMSA event" />
+              <figcaption><span class="fig-no">Fig. 02.2</span> — Elevator lift assembly with pulley rigging and vision camera, shown at TMSA.</figcaption>
+            </figure>
+            <div class="robot-title-block">
+              <h3>Competition robot</h3>
+              <p class="sub">Sheet 02-B · TMSA workshop</p>
+              <ul class="spec-list">
+                <li><span class="k">Name</span> <span class="v tbd">to be confirmed</span></li>
+                <li><span class="k">Season</span> <span class="v tbd">to be confirmed</span></li>
+                <li><span class="k">Lift</span> <span class="v">Vertical elevator · pulley rigging</span></li>
+                <li><span class="k">Vision</span> <span class="v">Onboard camera</span></li>
               </ul>
             </div>
-
-          </div>
+          </article>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <section id="outreach" class="section alt">
-        <div class="container">
-          <div class="section-header">
-            <h2>Outreach</h2>
-            <p>We introduce robotics to parents and younger students and host educational robotics lessons.</p>
-          </div>
-          <div class="grid three">
-            <div class="card">
-              <h3>STEM Nights</h3>
-              <p>Introduce robotics to parents and younger students.</p>
-            </div>
-            <div class="card">
-              <h3>Community</h3>
-              <p>Hosting educational robotics lessons to younger generations.</p>
-            </div>
-
-          </div>
+  <!-- ================= 03 RESULTS ================= -->
+  <section class="section" id="achievements">
+    <div class="wrap section-grid">
+      <div class="margin-col">
+        <div class="margin-inner">
+          <span class="sec-no" aria-hidden="true">03</span>
+          <span class="margin-note">Season ledger<br />Official FIRST record</span>
         </div>
-      </section>
+      </div>
+      <div class="body-col">
+        <h2 class="sec-title" data-reveal>Results</h2>
+        <hr class="sec-rule" aria-hidden="true" />
+        <p class="lede" data-reveal>Every event we have entered, from rookie season to the state championship.</p>
 
-      
+        <div class="ledger" data-reveal>
+          <div class="ledger-season">
+            <h3>2025</h3><span class="game">Reefscape · Rookie season</span>
+          </div>
+          <div class="ledger-row">
+            <span class="ev">FNC District Wake County Event</span>
+            <span class="res">Competed</span>
+          </div>
+          <div class="ledger-row">
+            <span class="ev">FNC District UNC Pembroke Event</span>
+            <span class="res">Competed</span>
+          </div>
 
-      <section id="gallery" class="section alt">
-        <div class="container">
-          <div class="section-header">
-            <h2>Gallery</h2>
-            <p>Photos from build season, competitions, and outreach.</p>
+          <div class="ledger-season">
+            <h3>2026</h3><span class="game">Rebuilt</span>
           </div>
-          <div class="grid three gallery-grid">
-            <figure>
-              <img class="gallery-img" src="frc1.jpeg" alt="MechaTigers at Wake County Event #1 as finalists" loading="lazy" />
-              <figcaption>Finalist at Wake County Event #1</figcaption>
-            </figure>
-            <figure>
-              <img class="gallery-img" src="frc2.jpeg" alt="Large team photo with 2024 Wake County Event winner banners" loading="lazy" />
-              <figcaption>Wake County Event #2 — Winners</figcaption>
-            </figure>
-            <figure>
-              <img class="gallery-img" src="frc3.jpeg" alt="Arena scoreboard showing alliance scores and high score badge" loading="lazy" />
-              <figcaption>Match scoreboard</figcaption>
-            </figure>
-            <figure>
-              <img class="gallery-img" src="Screenshot 2025-09-28 205949.png" alt="THOR event photo" />
-              <figcaption>THOR Event</figcaption>
-            </figure>
-            <figure>
-              <img class="gallery-img" src="competition.png" alt="Competition photo" />
-              <figcaption>Competition</figcaption>
-            </figure>
-            <figure>
-              <img class="gallery-img" src="bulding.png" alt="Building arena photo" />
-              <figcaption>Building Arena</figcaption>
-            </figure>
-            <figure>
-              <img class="gallery-img" src="IMG_4292.jpeg" alt="Fall Festival outdoor bounce house booth" />
-              <figcaption>Fall Festival</figcaption>
-            </figure>
-            <figure>
-              <img class="gallery-img" src="IMG_4294.jpeg" alt="Fall Festival indoor robotics exhibit" />
-              <figcaption>Fall Festival</figcaption>
-            </figure>
-            <figure>
-              <img class="gallery-img" src="clubexpo.png" alt="Club Expo photo" />
-              <figcaption>Club Expo</figcaption>
-            </figure>
+          <div class="ledger-row finalist">
+            <span class="ev">FNC District Wake County Event #1</span>
+            <span class="res">District Event Finalist</span>
           </div>
+          <div class="ledger-row win">
+            <span class="ev">FNC District Wake County Event #2</span>
+            <span class="res">Winner</span>
+          </div>
+          <div class="ledger-row">
+            <span class="ev">FIRST North Carolina State Championship</span>
+            <span class="res">Qualified &amp; competed</span>
+          </div>
+          <p class="ledger-foot small-note">Source: official FIRST event records — frc-events.firstinspires.org/team/10121.</p>
         </div>
-      </section>
 
-      <section id="leadership" class="section">
-        <div class="container">
-          <div class="section-header">
-            <h2>Leadership</h2>
-            <p>Our student leadership across subteams and operations.</p>
-          </div>
-          <div class="grid three">
-            <div class="card">
-              <h3>President</h3>
-              <p>Abdul Silawi</p>
-            </div>
-            <div class="card">
-              <h3>Vice President</h3>
-              <p>Savith Srirangam</p>
-            </div>
-            <div class="card">
-              <h3>Vice President</h3>
-              <p>Ejegyz Ylyasova</p>
-            </div>
-            <div class="card">
-              <h3>Build Team Lead</h3>
-              <p>Vikartha Suresh</p>
-            </div>
-            <div class="card">
-              <h3>Electrical Team Lead</h3>
-              <p>Namish Singh</p>
-            </div>
-            <div class="card">
-              <h3>Marketing/Finance Team Lead</h3>
-              <p>Rumaysa Khan</p>
-            </div>
-            <div class="card">
-              <h3>Outreach</h3>
-              <p>Zoya Khan</p>
-            </div>
-            <div class="card">
-              <h3>Programming Team Lead</h3>
-              <p>Ertugrul Findik</p>
-            </div>
+        <figure class="plate results-evidence" data-reveal>
+          <img src="frc1.jpeg" width="1600" height="1200" loading="lazy"
+               alt="MechaTigers team members and mentor holding medals and the finalist trophy in front of a 2026 FIRST North Carolina District Wake County Event banner" />
+          <figcaption><span class="fig-no">Plate 02</span> — Medals and finalist trophy, FNC District Wake County Event #1, 2026 REBUILT season.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
 
-          </div>
+  <!-- ================= 04 ENGINEERING PROCESS ================= -->
+  <section class="section" id="engineering">
+    <div class="wrap section-grid">
+      <div class="margin-col">
+        <div class="margin-inner">
+          <span class="sec-no" aria-hidden="true">04</span>
+          <span class="margin-note">Process<br />Kickoff → Field</span>
         </div>
-      </section>
+      </div>
+      <div class="body-col">
+        <h2 class="sec-title" data-reveal>How a robot gets built</h2>
+        <hr class="sec-rule" aria-hidden="true" />
+        <p class="lede" data-reveal>From game reveal to the competition field, every discipline is student-run.</p>
 
-      <section id="contact" class="section contact-section">
-        <div class="container">
-          <div class="section-header">
-            <h2>Contact</h2>
-            <p>Students and mentors - we'd love to hear from you.</p>
+        <div class="process-list" data-reveal>
+          <div class="process-row">
+            <span class="step">Build</span>
+            <div>
+              <h3>Design &amp; build</h3>
+              <p>The build subteam takes the season's game and turns it into a machine — prototyping mechanisms, framing the chassis, and assembling every iteration in the TMSA workshop.</p>
+            </div>
           </div>
-          <div class="grid two">
-            <div class="card contact-cta">
-              <h3>Let's Connect</h3>
-              <p>Have questions or want to join MechaTigers 10121?</p>
-              <div class="contact-actions">
-                <a href="mailto:smckenley@tmsacademy.org" class="btn btn-primary btn-sm">Email Us</a>
-                <a href="https://gofund.me/8645dbc07" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Donate via GoFundMe</a>
-              </div>
-              <ul class="contact-highlights">
-                <li><span class="dot ok"></span> New members welcome</li>
-                <li><span class="dot ok"></span> Community support keeps us competing</li>
-              </ul>
+          <div class="process-row">
+            <span class="step">Fabrication</span>
+            <div>
+              <h3>Fabrication</h3>
+              <p>Cutting, drilling, and finishing the parts the design calls for — students do the shop work themselves, from lumber field elements to aluminum structure.</p>
             </div>
-            <div class="card contact-info">
-              <h3>Contact Details</h3>
-              <ul class="contact-list">
-                <li>
-                  <span class="icon-circle" aria-hidden="true">
-                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                      <rect x="3" y="5" width="18" height="14" rx="2"/>
-                      <path d="m3 7 9 6 9-6"/>
-                    </svg>
-                  </span>
-                  <div>
-                    <strong>Email</strong>
-                    <div><a href="mailto:smckenley@tmsacademy.org">smckenley@tmsacademy.org</a></div>
-                  </div>
-                </li>
-                <li>
-                  <span class="icon-circle" aria-hidden="true">
-                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-                      <rect x="3" y="3" width="18" height="18" rx="5"/>
-                      <circle cx="12" cy="12" r="3.5"/>
-                      <circle cx="17.5" cy="6.5" r="1"/>
-                    </svg>
-                  </span>
-                  <div>
-                    <strong>Instagram</strong>
-                    <div><a href="https://www.instagram.com/tmsa_frc/" aria-label="Instagram profile" target="_blank" rel="noopener">@tmsa_frc</a></div>
-                  </div>
-                </li>
-              </ul>
+          </div>
+          <div class="process-row">
+            <span class="step">Electrical</span>
+            <div>
+              <h3>Electrical</h3>
+              <p>The electrical subteam wires power distribution, motor controllers, and sensors — the nervous system that has to survive full-contact matches.</p>
             </div>
-            <div class="card contact-qr">
-              <h3>Support MechaTigers</h3>
-              <p>Scan or tap to help fund parts, travel, and registration fees.</p>
-              <img src="gofundme-qr.png" alt="Scan to open the MechaTigers GoFundMe donation page" loading="lazy" />
-              <a href="https://gofund.me/8645dbc07" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Open GoFundMe</a>
+          </div>
+          <div class="process-row">
+            <span class="step">Programming</span>
+            <div>
+              <h3>Programming</h3>
+              <p>Drive control, autonomous routines, and vision targeting — the programming subteam writes the code that turns hardware into a competitor.</p>
+            </div>
+          </div>
+          <div class="process-row">
+            <span class="step">Strategy</span>
+            <div>
+              <h3>Strategy &amp; scouting</h3>
+              <p>Between matches the team scouts other robots, plans alliances, and adapts — competition is played as much on the whiteboard as on the field.</p>
             </div>
           </div>
         </div>
-      </section>
-    </main>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <div class="footer-brand">
-          <div class="logo">🐯</div>
+        <div class="process-plates">
+          <figure class="plate" data-reveal>
+            <img src="bulding.png" width="1148" height="1044" loading="lazy"
+                 alt="Three students cutting lumber with a miter saw in the school workshop during build season" />
+            <figcaption><span class="fig-no">Fig. 04.1</span> — Build-season fabrication in the TMSA workshop.</figcaption>
+          </figure>
+          <figure class="plate" data-reveal>
+            <img src="Screenshot 2025-09-28 205949.png" width="1187" height="1482" loading="lazy"
+                 alt="Students from several teams in a strategy huddle around a whiteboard at the THOR offseason event" />
+            <figcaption><span class="fig-no">Fig. 04.2</span> — Strategy huddle with partner teams, THOR offseason event.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 05 OUTREACH ================= -->
+  <section class="section" id="outreach">
+    <div class="wrap section-grid">
+      <div class="margin-col">
+        <div class="margin-inner">
+          <span class="sec-no" aria-hidden="true">05</span>
+          <span class="margin-note">Community<br />Apex, NC</span>
+        </div>
+      </div>
+      <div class="body-col">
+        <h2 class="sec-title" data-reveal>Outreach</h2>
+        <hr class="sec-rule" aria-hidden="true" />
+        <p class="lede" data-reveal>Robots are the vehicle; the mission is getting more students — and their families — into engineering.</p>
+        <div class="outreach-grid">
+          <div class="outreach-item" data-reveal>
+            <figure class="plate">
+              <img src="IMG_4294.jpeg" width="1085" height="664" loading="lazy"
+                   alt="Robot exhibition in the TMSA Apex gym: the team's robot on the floor with families and children watching" />
+            </figure>
+            <h3><span class="fig-no">Fig. 05.1</span>Robot exhibitions</h3>
+            <p>We bring the competition robot to school and community events, letting younger students see it run — and drive it — up close.</p>
+          </div>
+          <div class="outreach-item" data-reveal>
+            <figure class="plate">
+              <img src="IMG_4292.jpeg" width="1179" height="660" loading="lazy"
+                   alt="MechaTigers booth at the TMSA Apex Fall Festival with a bounce house and hand-drawn rules poster" />
+            </figure>
+            <h3><span class="fig-no">Fig. 05.2</span>Fall Festival</h3>
+            <p>Running booths at the TMSA Apex Fall Festival — meeting parents and younger students where they already are.</p>
+          </div>
+          <div class="outreach-item" data-reveal>
+            <figure class="plate">
+              <img src="clubexpo.png" width="1270" height="611" loading="lazy"
+                   alt="Five MechaTigers members and a mentor in team jerseys at a school club expo table" />
+            </figure>
+            <h3><span class="fig-no">Fig. 05.3</span>Club Expo</h3>
+            <p>Recruiting the next generation of members at TMSA's club expo — no experience required, every subteam open.</p>
+          </div>
+          <div class="outreach-item" data-reveal>
+            <h3><span class="fig-no">Fig. 05.4</span>STEM nights &amp; lessons</h3>
+            <p>We host educational robotics lessons and STEM nights that introduce robotics — and FIRST competition — to parents and younger students.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PLATES / GALLERY ================= -->
+  <section class="section" id="gallery">
+    <div class="wrap">
+      <div class="plates-head">
+        <h2>Plates</h2>
+        <span class="mono-label">Field documentation · 2025–2026</span>
+      </div>
+      <div class="plates-grid">
+        <figure class="plate span-12 landscape" data-reveal>
+          <img src="competition.png" width="1284" height="562" loading="lazy"
+               alt="Wide view of a REEFSCAPE competition field with team banners in the stands at a district event" />
+          <figcaption><span class="fig-no">Plate 03</span> — District event field, REEFSCAPE, 2025 season.</figcaption>
+        </figure>
+        <figure class="plate span-7 standard" data-reveal>
+          <img src="frc3.jpeg" width="1920" height="1440" loading="lazy"
+               alt="Arena scoreboard showing Alliance 1 with 520 points and a high score badge against Alliance 8 with 56" />
+          <figcaption><span class="fig-no">Plate 04</span> — Match scoreboard: Alliance 1, 520 points — event high score.</figcaption>
+        </figure>
+        <figure class="plate span-5 tall" data-reveal>
+          <img src="Screenshot 2025-09-28 205949.png" width="1187" height="1482" loading="lazy"
+               alt="Students from several teams planning around a whiteboard at the THOR offseason event" />
+          <figcaption><span class="fig-no">Plate 05</span> — Strategy huddle, THOR offseason event.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 06 LEADERSHIP ================= -->
+  <section class="section" id="leadership">
+    <div class="wrap section-grid">
+      <div class="margin-col">
+        <div class="margin-inner">
+          <span class="sec-no" aria-hidden="true">06</span>
+          <span class="margin-note">Student<br />leadership</span>
+        </div>
+      </div>
+      <div class="body-col">
+        <h2 class="sec-title" data-reveal>Leadership</h2>
+        <hr class="sec-rule" aria-hidden="true" />
+        <p class="lede" data-reveal>Every subteam is student-run.</p>
+        <ul class="roster" data-reveal>
+          <li><span class="role">President</span><span class="name">Abdul Silawi</span></li>
+          <li><span class="role">Vice President</span><span class="name">Savith Srirangam</span></li>
+          <li><span class="role">Vice President</span><span class="name">Ejegyz Ylyasova</span></li>
+          <li><span class="role">Build Lead</span><span class="name">Vikartha Suresh</span></li>
+          <li><span class="role">Electrical Lead</span><span class="name">Namish Singh</span></li>
+          <li><span class="role">Programming Lead</span><span class="name">Ertugrul Findik</span></li>
+          <li><span class="role">Marketing / Finance Lead</span><span class="name">Rumaysa Khan</span></li>
+          <li><span class="role">Outreach</span><span class="name">Zoya Khan</span></li>
+        </ul>
+        <p class="small-note roster-note">Roster as published by the team; roles refresh with each school year.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 07 SUPPORT ================= -->
+  <section class="section" id="support">
+    <div class="wrap section-grid">
+      <div class="margin-col">
+        <div class="margin-inner">
+          <span class="sec-no" aria-hidden="true">07</span>
+          <span class="margin-note">Support<br />the build</span>
+        </div>
+      </div>
+      <div class="body-col">
+        <h2 class="sec-title" data-reveal>Support the team</h2>
+        <hr class="sec-rule" aria-hidden="true" />
+        <p class="lede" data-reveal>Community support is what keeps a student team on the field. Every donation goes directly into the season.</p>
+        <div class="support-grid">
+          <div data-reveal>
+            <ul class="fund-list">
+              <li>
+                <span class="what">Registration</span>
+                <span class="why">FIRST district event registration is the largest single line item of the season.</span>
+              </li>
+              <li>
+                <span class="what">Parts &amp; materials</span>
+                <span class="why">Motors, controllers, aluminum stock, electronics, and spares for competition repairs.</span>
+              </li>
+              <li>
+                <span class="what">Travel</span>
+                <span class="why">Getting the robot and the team to district events and the state championship.</span>
+              </li>
+            </ul>
+            <div class="support-cta">
+              <a class="btn btn-solid" href="https://gofund.me/8645dbc07" target="_blank" rel="noopener">Donate via GoFundMe</a>
+              <a class="btn" href="mailto:smckenley@tmsacademy.org">Sponsor inquiries</a>
+            </div>
+          </div>
+          <div class="tearoff" data-reveal>
+            <span class="scissors" aria-hidden="true">— — — donation slip — — —</span>
+            <img src="gofundme-qr.png" width="488" height="484" loading="lazy"
+                 alt="QR code linking to the MechaTigers GoFundMe donation page" />
+            <p>Scan to open our GoFundMe and help fund parts, travel, and registration.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= CONTACT / COLOPHON ================= -->
+<footer class="colophon" id="contact">
+  <div class="wrap">
+    <div class="colophon-grid">
+      <div>
+        <div class="brand-foot">
+          <img src="logo.png" alt="" width="44" height="44" />
           <div>
             <strong>MechaTigers 10121</strong><br />
-            FIRST Robotics Competition Team
+            <span class="mono" style="color:var(--steel-dim)">FIRST Robotics Competition</span>
           </div>
         </div>
-        <nav class="footer-nav" aria-label="Footer">
-          <a href="#about">About</a>
-          <a href="#robots">Robots</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <div class="copyright">© <span id="year"></span> MechaTigers 10121. All rights reserved.</div>
+        <p style="margin-top:16px">Triangle Math and Science Academy<br />Apex, North Carolina</p>
       </div>
-    </footer>
+      <div>
+        <h3>Join or contact</h3>
+        <ul>
+          <li>Email — <a href="mailto:smckenley@tmsacademy.org">smckenley@tmsacademy.org</a></li>
+          <li>Instagram — <a href="https://www.instagram.com/tmsa_frc/" target="_blank" rel="noopener">@tmsa_frc</a></li>
+        </ul>
+        <p style="margin-top:14px">New members are welcome in every subteam — no prior experience needed.</p>
+        <a class="btn btn-foot" href="mailto:smckenley@tmsacademy.org">Join the team</a>
+      </div>
+      <div>
+        <h3>Support</h3>
+        <ul>
+          <li><a href="https://gofund.me/8645dbc07" target="_blank" rel="noopener">GoFundMe — fund the next build</a></li>
+          <li><a href="mailto:smckenley@tmsacademy.org">Sponsor the team</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="colophon-bottom">
+      <span>© <span id="year"></span> MechaTigers 10121 · All rights reserved</span>
+      <span>The Build Report · Set in Archivo, Source Serif 4 &amp; IBM Plex Mono</span>
+    </div>
+  </div>
+</footer>
 
-    <script src="assets/js/main.js"></script>
-  </body>
-  </html>
-
-
-
-
-
-
-
-
-
-
+<script src="assets/js/main.js"></script>
+</body>
+</html>
