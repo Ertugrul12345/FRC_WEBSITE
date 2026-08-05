@@ -193,9 +193,9 @@ img { max-width: 100%; height: auto; display: block; }
   padding-right: clamp(0px, 3vw, 40px);
 }
 .hero-emblem img {
-  width: clamp(160px, 24vw, 300px);
+  width: clamp(180px, 26vw, 340px);
   height: auto;
-  filter: drop-shadow(0 1px 0 rgba(24, 22, 20, .2));
+  mix-blend-mode: multiply; /* melts the near-paper background into the page */
 }
 .hero-emblem-label {
   font-family: var(--mono); font-size: 10.5px; font-weight: 500;
