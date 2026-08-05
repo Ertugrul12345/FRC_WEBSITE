@@ -195,7 +195,7 @@ img { max-width: 100%; height: auto; display: block; }
 .hero-emblem img {
   width: clamp(180px, 26vw, 340px);
   height: auto;
-  mix-blend-mode: multiply; /* melts the near-paper background into the page */
+  /* image background is color-matched to --paper, so no blend mode needed */
 }
 .hero-emblem-label {
   font-family: var(--mono); font-size: 10.5px; font-weight: 500;
